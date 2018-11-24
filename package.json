@@ -1,0 +1,16 @@
+{
+  "name": "tumblr-text-tools",
+  "version": "1.0.0",
+  "description": "Some tools for Tumblr no one else will ever need.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahkashani/tumblr-text-tools.git"
+  },
+  "author": "Shah Kashani <skashani@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shahkashani/tumblr-text-tools/issues"
+  },
+  "homepage": "https://github.com/shahkashani/tumblr-text-tools#readme"
+}
