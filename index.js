@@ -21,7 +21,7 @@ const getNewDimensions = (width, height, newWidth) => {
 };
 
 const getClosestTumblrWidth = width =>
-  PHOTO_SIZES.find(size => size > width) || last(PHOTO_SIZES);
+  PHOTO_SIZES.find(size => size > width) || PHOTO_SIZES[PHOTO_SIZES.length - 1];
 
 const getRelevantAltWidths = width =>
   PHOTO_SIZES.slice(0, PHOTO_SIZES.indexOf(width)).reverse();
